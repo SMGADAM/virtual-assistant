@@ -42,7 +42,7 @@ while 1>0 :
             text = r.recognize_google(audio)
             print(text)
         except :
-            print("")
+            print("I couldn't hear You ")
         while text != "" :
             if "hello" in text :
                 speak("hello domy")
